@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#SPDX-FileCopyrightText: 2022 moritadaiki
 
 import sys
 
