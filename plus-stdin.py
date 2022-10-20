@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#SPDX-FileCopyrightText: 2022 moritadaiki
+#SPDX-FileCopyrightText: 2022 Daiki Morita
 #SPDX-License-Identifier: BSD-3-Clause
 
 
