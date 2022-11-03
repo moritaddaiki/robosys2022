@@ -18,10 +18,22 @@ out=$(seq 5 | ./plus.py)
 [ "${out}" = 15 ] || ng ${LINENO}
 + '[' 15 = 15 ']'
 
+### STRANGE INPUT ###
+out=$(echo あ | ./plus.py)
+    [ "$?" = 1 ]      || ng ${LINENO}
+    [ "${out}" = "" ] || ng ${LINENO}
+          　 
+out=$(echo | ./plus.py) #空文字
+    [ "$?" = 1 ]      || ng ${LINENO}
+    [ "${out}" = "" ] || ng ${LINENO}
+
+
+
 [ "$res" = 0 ] && echo OK
 + '[' 0 = 0 ']'
   + echo OK
     OK
       exit $res
         + exit 0
+
 exit $res
