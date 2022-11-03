@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash -xv 
 #SPDX-FileCopyrightText: 2022 Daiki Morita
 #iSPDX-License-Identifier: BSD-3-Clause
 
@@ -11,20 +11,17 @@ res=0
 + res=0
 
 ### I/0 test ###
-out=$(seq 5 | ./plus)
+out=$(seq 5 | ./plus.py)
+++ seq 5
+++ ./plus.py
++ out=15
 [ "${out}" = 15 ] || ng ${LINENO}
-
-### STRANGE INPUT ###
-out=$(echo あ | ./plus)
-["$?" = 1 ]      || ng ${LINENO}
-["${out}" = "" ] || ng ${LINENO}
-
-
-
-out=$(echo | ./plus)
-["$?" = 1 ]      || ng ${LINENO}
-["${out}" = "" ] || ng ${LINENO}
++ '[' 15 = 15 ']'
 
 [ "$res" = 0 ] && echo OK
-
++ '[' 0 = 0 ']'
+  + echo OK
+    OK
+      exit $res
+        + exit 0
 exit $res
