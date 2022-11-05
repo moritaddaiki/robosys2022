@@ -1,5 +1,7 @@
 # robosys202x
-お試し
+
+![test](https://github.com/daikimorita/robosys2022/actions/workflows/test.yml/badge.svg)
+試し
 
 
 ## 必要なソフトウェア
