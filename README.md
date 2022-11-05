@@ -1,6 +1,6 @@
 # robosys202x
 
-![test](https://github.com/moritadaiki/robosys202x/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/moritaddaiki/robosys202x/actions/workflows/test.yml/badge.svg)
 試し
 
 
