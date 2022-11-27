@@ -2,10 +2,14 @@
 
 これらのプログラムは授業により製作したものです。
 
+
+
 内容について
 
 ・LICENCE、README.md　は著作権関係
+
 ・test.bash、.github/workflows　プログラムのテストプログラムです。
+
 ・plus.py　plus-stdin.py　は足し算のプログラムです。
 
 ![test](https://github.com/moritaddaiki/robosys202x/actions/workflows/test.yml/badge.svg)
