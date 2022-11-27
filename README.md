@@ -8,9 +8,13 @@
 
 ・LICENCE、README.md　は著作権関係
 
-・test.bash、.github/workflows　プログラムのテストプログラムです。
+・test.bash、.github/workflows　はプログラムのテストプログラムです。
 
-・plus.py　plus-stdin.py　は足し算のプログラムです。
+・plus.pyとplus-stdin.py　は基本的に機能としては同じ様なプログラムです。[seq]コマンドをパイプを使って使うことが前提になってます。
+（sys.stdin）を入力に使っていますのでそれに対応する入力であれば大丈夫だと思います。
+
+・register.py  は[./register.py 50 10 20]のように実行コマンドを打った後に入力したい数字を入力してください。段階的に足されていきます。また、入力の最後に合計がでる様になっています。
+
 
 ![test](https://github.com/moritaddaiki/robosys202x/actions/workflows/test.yml/badge.svg)
 <-これはテストプログラムに通過しているか示すものです。
