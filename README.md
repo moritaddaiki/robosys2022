@@ -6,15 +6,22 @@
 
 ## 内容について
 
-・LICENCE、README.md　は著作権関係
+・LICENCE は著作権についての文章です。
 
 
-・test.bash、.github/workflows　はテストプログラムです。
+・README.md　はこの文章が書いてあるファイルです。
+
+
+・test.bash は[plus.py]のテストプログラムです。
+
+
+・.github/workflowsは下のテストバッジのプログラムです。
 
 
 ・plus.py　は足し算のプログラムです。基本的には[seq]コマンドなどをパイプで入力する様になっています。
 また、入力には[sys.stdin]を使っているので、それに対応する入力のやり方であれば大丈夫です。
 ->入力例:seq 5 | ./plus.py
+
 
 
 ![test](https://github.com/moritaddaiki/robosys202x/actions/workflows/test.yml/badge.svg)
