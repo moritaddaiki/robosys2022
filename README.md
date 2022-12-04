@@ -1,4 +1,4 @@
-# robosys202x
+# robosys2022
 
 これらのプログラムは授業により製作したものです。
 
@@ -26,7 +26,7 @@ $ seq 5 | ./plus.py
 ```
 
 
-![test](https://github.com/moritaddaiki/robosys202x/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/moritaddaiki/robosys2022/actions/workflows/test.yml/badge.svg)
 <-これはテストプログラムに通過しているか示すものです。
 
 
@@ -50,7 +50,7 @@ __(対応しているPythonのバージョンを一度確認してください�
 
 ４．（１.）で作成したディレクトリで
 ```
-$ git clone git@github.com:moritaddaiki/robosys202x.git
+$ git clone git@github.com:moritaddaiki/robosys2022.git
 ```
 を実行します。
 
