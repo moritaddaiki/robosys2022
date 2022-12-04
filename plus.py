@@ -5,13 +5,17 @@
 
 import sys
 
-ans = 0
-
-for line in sys.stdin:
+def totum(s):
     try:
-        ans += int(line)
+        return int(s)
     except:
-        ans += float(line)
+        return float(s)
 
+
+    
+ans = 0
+for line in sys.stdin:
+    line = line .rstrip()
+    ans += totum(line)
 
 print(ans)
