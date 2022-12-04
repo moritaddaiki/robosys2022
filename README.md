@@ -54,7 +54,7 @@ $ git clone git@github.com:moritaddaiki/robosys2022.git
 ```
 を実行します。
 
-５．完了です。
+５．これでリポジトリのクローンが完了しました。後は各コードを実行すれば動きます。
 
 
 
